@@ -1,0 +1,104 @@
+.class-container {
+  display: grid;
+  grid-template-columns: repeat(3, 600px);
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.frame {
+  border: 1px solid black;
+
+  height: 80vh;
+  position: relative;
+}
+
+.sand {
+  position: absolute;
+  bottom: 0;
+  width: 598px;
+  height: 100px;
+  background-color: rgb(194, 178, 128);
+}
+
+.water {
+  position: absolute;
+  bottom: 100px;
+  width: 598px;
+  height: 100px;
+  background-color: rgb(6, 66, 115);
+}
+
+.sky {
+  position: absolute;
+  bottom: 200px;
+  width: 598px;
+  height: 535px;
+  background-color: rgb(135, 206, 235);
+}
+
+.sun {
+  position: absolute;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 50px;
+  top: 10px;
+}
+
+.tree {
+  position: absolute;
+  background-color: #a45b17;
+  width: 50px;
+  height: 250px;
+  z-index: 3;
+  bottom: 2px;
+  left: 450px;
+}
+
+.leaf {
+  position: absolute;
+  background-color: green;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  left: 400px;
+  bottom: 200px;
+  z-index: 3;
+}
+
+.sun2 {
+  position: absolute;
+  background-color: orangered;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 50px;
+  top: 10px;
+}
+
+.sky2 {
+  position: absolute;
+  bottom: 200px;
+  width: 598px;
+  height: 535px;
+  background-color: rgb(255, 178, 136);
+}
+
+.sun3 {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 50px;
+  top: 10px;
+}
+
+.sky3 {
+  position: absolute;
+  bottom: 200px;
+  width: 598px;
+  height: 535px;
+  background-color: rgb(19, 24, 98);
+}

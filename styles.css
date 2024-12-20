@@ -11,8 +11,8 @@ header {
 }
 
 .frame {
-  height: 80vh;
   position: relative;
+  height: 80vh;
   flex-wrap: wrap;
 }
 
@@ -48,7 +48,7 @@ header {
   height: 100px;
   border-radius: 50%;
   left: 50px;
-  top: 10px;
+  bottom: 600px;
 }
 
 .tree {
@@ -79,7 +79,7 @@ header {
   height: 100px;
   border-radius: 50%;
   left: 50px;
-  top: 490px;
+  bottom: 155px;
   z-index: 2;
 }
 
@@ -98,7 +98,7 @@ header {
   height: 100px;
   border-radius: 50%;
   left: 50px;
-  top: 10px;
+  bottom: 600px;
 }
 
 .sky3 {
@@ -107,10 +107,4 @@ header {
   width: 598px;
   height: 535px;
   background-color: rgb(19, 24, 98);
-}
-
-@media (max-width: 1024px) {
-  .frame {
-    flex-basis: 45%;
-  }
 }

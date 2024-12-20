@@ -1,15 +1,19 @@
 .class-container {
   display: grid;
   grid-template-columns: repeat(3, 600px);
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 5%;
 }
 
-.frame {
-  border: 1px solid black;
+header {
+  text-align: center;
+}
 
+.frame {
   height: 80vh;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .sand {
@@ -101,4 +105,10 @@
   width: 598px;
   height: 535px;
   background-color: rgb(19, 24, 98);
+}
+
+@media (max-width: 1024px) {
+  .frame {
+    flex-basis: 45%;
+  }
 }

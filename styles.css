@@ -1,9 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 .class-container {
-  display: grid;
-  grid-template-columns: repeat(3, 600px);
-  flex-wrap: wrap;
+  display: flex;
   justify-content: space-between;
-  margin-top: 5%;
+  width: 68%;
+  margin-top: 2%;
 }
 
 header {
@@ -13,7 +15,6 @@ header {
 .frame {
   position: relative;
   height: 80vh;
-  flex-wrap: wrap;
 }
 
 .sand {
@@ -107,4 +108,14 @@ header {
   width: 598px;
   height: 535px;
   background-color: rgb(19, 24, 98);
+}
+
+@media (max-width: 1024px) {
+  header {
+    margin-bottom: 2%;
+  }
+  .frame {
+    flex-basis: 10%;
+    flex-direction: column;
+  }
 }

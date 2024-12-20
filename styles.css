@@ -108,9 +108,3 @@ header {
   height: 535px;
   background-color: rgb(19, 24, 98);
 }
-
-@media (max-width: 1024px) {
-  .frame {
-    flex-basis: 45%;
-  }
-}

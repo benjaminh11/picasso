@@ -30,6 +30,7 @@ header {
   width: 598px;
   height: 100px;
   background-color: rgb(6, 66, 115);
+  z-index: 3;
 }
 
 .sky {
@@ -55,7 +56,7 @@ header {
   background-color: #a45b17;
   width: 50px;
   height: 250px;
-  z-index: 3;
+  z-index: 5;
   bottom: 2px;
   left: 450px;
 }
@@ -68,7 +69,7 @@ header {
   border-radius: 50%;
   left: 400px;
   bottom: 200px;
-  z-index: 3;
+  z-index: 5;
 }
 
 .sun2 {
@@ -78,7 +79,8 @@ header {
   height: 100px;
   border-radius: 50%;
   left: 50px;
-  top: 10px;
+  top: 490px;
+  z-index: 2;
 }
 
 .sky2 {
